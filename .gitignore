@@ -221,3 +221,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Restricted PolSAR image data, generated arrays, checkpoints and caches
+# Intentionally excluded pending provenance and redistribution audit.
+data/
+raw_data/
+datasets/
+**/patch_cache/
+**/graph_cache/
+*.mat
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+.env
+.env.*
